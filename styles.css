@@ -1,0 +1,10 @@
+body {
+  height: 100%;
+}
+main {
+  height: 100%;
+}
+
+#new-book-form {
+  display: none;
+}
