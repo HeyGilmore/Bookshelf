@@ -21,22 +21,21 @@
     <!-- FORM To ADD BOOKS -->
     <form class=" bg-light rounded w-25 p-3 " id="new-book-form">
         <div class="mb-3">
-            <label for="title" class="form-label">Title</label>
-            <input type="text" class="form-control" id="inputTitle" aria-describedby="titleHelp">
+            <label for="inputTitle" class="form-label">Title</label>
+            <input type="text" class="form-control" id="inputTitle" required>
         </div>
         <div class="mb-3">
             <label for="authorInput" class="form-label">Author's Name:</label>
-            <input type="text" class="form-control" id="authorInput">
+            <input type="text" class="form-control" id="authorInput" required>
         </div>
         <div class="mb-3">
             <label for="pagesInput" class="form-label">How many pages?</label>
-            <input type="numbers" class="form-control" id="pagesInput">
+            <input type="numbers" class="form-control" id="pagesInput" required>
         </div>
         <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="haveYouRead">
             <label class="form-check-label" for="haveYouRead">Check if you have read.</label>
-          </div>
-        
+        </div>
         <button type="submit" class="btn btn-primary rounded" id="submitButton">Submit</button>
     </form>
 
