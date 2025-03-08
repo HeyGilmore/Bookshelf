@@ -5,6 +5,8 @@ main {
   height: 100%;
 }
 
-#new-book-form {
-  display: none;
+#bookShowcase {
+  background-color: aliceblue;
+  border: 2px solid white;
+  border-radius: 12px;
 }
